@@ -16,7 +16,7 @@ function updateCountdown() {
         + minutes + "m " + seconds + "s ";
     } else {
         // If the countdown is over, write some text 
-        countdownElement.innerHTML = "The countdown is over!";
+        countdownElement.innerHTML = "Dags för enkla 3 chests with the boys";
     }
 }
 
