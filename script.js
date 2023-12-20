@@ -1,7 +1,8 @@
 function updateCountdown() {
     const countdownElement = document.getElementById('clock');
     const videoLink = document.getElementById('video-link');
-    const targetDate = new Date('2023-12-20T02:08:00');
+    const targetDate = new Date(new Date().getTime() + 10000); // Nuvarande tid plus 10 sekunder
+
     const now = new Date();
     const difference = targetDate - now;
 
