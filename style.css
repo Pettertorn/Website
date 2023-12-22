@@ -4,9 +4,9 @@ body {
 }
 
 .image-container {
-    margin-bottom: 20px;
+    margin-bottom: 1px;
 }
 
 #countdown {
-    font-size: 24px;
+    font-size: 60px;
 }
