@@ -1,6 +1,6 @@
 function updateCountdown() {
     const countdownElement = document.getElementById('clock');
-    const targetDate = new Date('2023-12-26T12:00:00'); // Set target date and time
+    const targetDate = new Date('2023-12-25T12:00:00'); // Set target date and time
     const now = new Date();
     const difference = targetDate - now;
 
